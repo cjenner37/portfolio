@@ -12,7 +12,3 @@ run lambda { |env|
     File.open('public/page1.html', File::RDONLY)
   ]
 }
-
-map "/public" do
-  run Rack::Directory.new("./public")
-end
