@@ -1,0 +1,45 @@
+.home-container {
+	/*border: 1px solid black;*/
+	margin: -10px -10px 0px -10px;
+	height: 470px;
+	overflow: hidden;
+}
+
+#home-picture {
+	width: 100%;
+	margin: -280px auto;
+	clip: rect(0px 0px 500px 0px);
+}
+
+
+#title-wrapper {
+	position: absolute;
+	margin: 42px 0px 0px 127px;
+	color: #e8e8e8;
+}
+
+#name {
+	font-size: 50px;
+}
+
+#title {
+	font-size: 20px;
+}
+
+.card {
+	margin: 4px 2px;
+	background-color: #a9a9a9;
+	box-sizing: border-box;
+	width: 244px;
+	height: 180px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.grid {
+	margin: 0 auto;
+	max-width: 90%;
+	max-height: 90%;
+}

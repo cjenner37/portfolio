@@ -1,0 +1,38 @@
+
+
+.home-container {
+	/*border: 1px solid black;*/
+	margin: -10px -10px 0px -10px;
+	height: 470px;
+	overflow: hidden;
+}
+
+#home-picture {
+	width: 100%;
+	margin: -280px auto;
+	clip: rect(0px 0px 500px 0px);
+}
+
+
+#title-wrapper {
+	position: absolute;
+	margin: -280px 0px 0px 190px;
+}
+
+#name {
+	font-size: 50px;
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+
+#title {
+	font-size: 20px;
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+
+
+
+#first-box {
+	margin: 100px auto;
+}
